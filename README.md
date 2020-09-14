@@ -1,5 +1,5 @@
 # Installfest
-![](Whales.mp4)
+![](siliconValley.gif)
 
 ## Homebrew
 
