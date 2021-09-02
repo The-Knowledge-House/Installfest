@@ -162,7 +162,7 @@ https://community.chocolatey.org/packages/vscode.install
 
 Open VS Code by typing code at the terminal.
 
-Type control + comma and click this icon  on the top right to open the settings.json config file.
+Type control + comma and click this icon ![](settings.png) on the top right to open the settings.json config file.
 Copy and paste the options from below and save:
 ```
 {
