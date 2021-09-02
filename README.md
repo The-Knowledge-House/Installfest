@@ -141,10 +141,11 @@ Must always run cmd prompt/powershell as administrator to use chocolately
 
 ### Git
 Install Git Using chocolatey: choco install git.install
-    https://community.chocolatey.org/packages/git.install
-Getting started with git: https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
+https://community.chocolatey.org/packages/git.install
+Getting started with git: 
+  https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
 Use HTTPS, cache credentials with gh CLI: 
-https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+  https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
 http://git-cheatsheet.com/ 
 
 ### Node
