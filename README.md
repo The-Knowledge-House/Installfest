@@ -1,6 +1,8 @@
 # Installfest
 ![](siliconValley.gif)
 
+# Mac Version
+# Scroll down for Windows Version
 ## Homebrew
 
 [Homebrew](https://brew.sh/) is an extremely popular and easy to use package manager for macOS. This is the tool we will use to install all of the software we need for this course.
@@ -131,7 +133,62 @@ npm install -g eslint-config-airbnb-base eslint eslint-plugin-jsx-a11y eslint-pl
 
 ```
 
+# Windows Version
 
+## Chocolately
+Follow instructions on: https://chocolatey.org/install 
+Must always run cmd prompt/powershell as administrator to use chocolately 
+
+### Git
+Install Git Using chocolatey: choco install git.install
+    https://community.chocolatey.org/packages/git.install
+Getting started with git: https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
+Use HTTPS, cache credentials with gh CLI: 
+https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
+http://git-cheatsheet.com/ 
+
+### Node
+Install Node.js: choco install nodejs.install
+https://community.chocolatey.org/packages/nodejs.install
+
+### VS Code
+Install VS Code: choco install vscode.install
+https://community.chocolatey.org/packages/vscode.install
+
+Open VS Code by typing code at the terminal.
+
+Type control + comma and click this icon  on the top right to open the settings.json config file.
+Copy and paste the options from below and save:
+```
+{
+  "window.zoomLevel": 3,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+    "rules": {
+      "no-unused-vars": "off",
+      "arrow-body-style": "off",
+      "no-debugger": "off",
+      "eol-last": "off",
+      "react/jsx-one-expression-per-line": "off"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.visible": true,
+  "explorer.openEditors.visible": 0,
+  "workbench.statusBar.feedback.visible": false,
+  "terminal.integrated.rendererType": "dom",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+}
+```
+now install ESLint by running this in command prompt:
+```
+npm install -g eslint-config-airbnb-base eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
+
+```
 
 
 
