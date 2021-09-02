@@ -140,7 +140,7 @@ Follow instructions on: https://chocolatey.org/install
 Must always run cmd prompt/powershell as administrator to use chocolately 
 
 ### Git
-Install Git Using chocolatey: choco install git.install
+Install Git Using chocolatey: ```choco install git.install```
 https://community.chocolatey.org/packages/git.install
 Getting started with git: 
   https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
@@ -149,11 +149,11 @@ Use HTTPS, cache credentials with gh CLI:
 http://git-cheatsheet.com/ 
 
 ### Node
-Install Node.js: choco install nodejs.install
+Install Node.js: ```choco install nodejs.install```
 https://community.chocolatey.org/packages/nodejs.install
 
 ### VS Code
-Install VS Code: choco install vscode.install
+Install VS Code: ```choco install vscode.install```
 https://community.chocolatey.org/packages/vscode.install
 
 Open VS Code by typing code at the terminal.
